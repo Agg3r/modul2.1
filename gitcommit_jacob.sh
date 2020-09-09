@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#cd /linuxprg
+git add *
+git config --global user.email "theagg3r@hotmail.com"
+git config --global user.name "Agg3r"
+echo Navn til commiten?
+read commit
+git commit -m $commit
+git push
